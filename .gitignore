@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Environments and IDEs
+.venv/
+venv/
+env/
+.conda/
+.idea/
+.vscode/
+*.code-workspace
+
+# Data and medical images
+data/
+datasets/
+dataset/
+images/
+masks/
+train/
+val/
+test/
+Enhanced/
+*.npy
+*.npz
+
+# Training outputs
+result/
+results/
+outputs/
+summary/
+log/
+logs/
+checkpoints/
+checkpoint*/
+*.pth
+*.pt
+*.pkl
+events.out.tfevents.*
+
+# Binary/runtime files
+*.exe
+*.dll
+*.pdb
+*.whl
+*.zip
+*.rar
+*.7z
+
+# Local artifacts
+*.log
+Thumbs.db
+.DS_Store
+
